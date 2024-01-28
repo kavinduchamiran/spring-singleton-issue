@@ -6,6 +6,6 @@ package com.kavinduchamiran.spring.beans;
 
 public class MyBean {
     public String getMessage() {
-        return "Hello from WAR 2!";
+        return "Hello from WAR 2! " + this.toString();
     }
 }
